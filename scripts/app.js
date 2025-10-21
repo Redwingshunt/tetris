@@ -8,6 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // blockPosition = currentPosition + (row * width) + column
 
+
+    /* 
+    
+    0  1  2  3  4  5  6  7  8  9
+    10 11 12 13 14 15 16 17 18 19
+    20 21 22 23 24 25 26 27 28 29
+
+    
+    
+    
+    */
     const lTetromino = [
         [1, width + 1, width * 2 + 1, 2],
         [width, width + 1, width + 2, width * 2 + 2],
